@@ -15,7 +15,6 @@ return (1);
 }
 else
 {
-putchar(c);
 return (0);
 }
 putchar('\n');
