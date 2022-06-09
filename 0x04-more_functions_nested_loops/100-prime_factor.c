@@ -1,7 +1,6 @@
 #include<stdio.h>
 /**
- *  largest prime factor - returns the largest prime factor of a number
- * @n: number to find largest prime factor of
+ *  main - Finds and prints the largest prime
  * Return: largest prime factor of n
  */
 int main(void)
