@@ -12,8 +12,9 @@ int i;
 i = 0;
 while (i < n)
 {
-printf("%d\n", a[i]);
+printf("%d", a[i]);
 printf(", ");
 i++;
 }
+printf("\n");
 }
