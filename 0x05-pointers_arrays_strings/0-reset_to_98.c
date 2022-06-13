@@ -7,7 +7,7 @@
  **/
 void reset_to_98(int *n)
 {
-if (n == 402)
+if (n = 402)
 {
 *n = 98;
 }
