@@ -10,7 +10,7 @@ int i;
 i = 0;
 while (str[i] != '\0')
 {
-_puts(str[i]);
+_puts(*str);
 i++;
 }
 _puts('\n');
