@@ -10,6 +10,6 @@ int len = 0;
 while (str[len] != '\0')
 len++;
 while (len)
-_putchar(str[--len]);
-_putchar('\n');
+printf(str[--len]);
+printf('\n');
 }
