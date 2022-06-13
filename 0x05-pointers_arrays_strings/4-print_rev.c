@@ -6,16 +6,10 @@
  */
 void print_rev(char *str)
 {
-int i;
-i = 0;
-while (str[i] != '\0')
-{
-i++;
-}
-while (i >= 0)
-{
-putchar(str[i]);
-i--;
-}
-putchar('\n');
+int len = 0;
+while (str[len] != '\0')
+len++;
+while (len)
+_putchar(str[--len]);
+_putchar('\n');
 }
