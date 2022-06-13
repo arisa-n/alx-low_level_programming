@@ -12,6 +12,6 @@ while (str[len] != '\0')
 len++;
 len -= 1;
 for (; i <= len; i += 2)
-printf(str[i]);
+printf(*str);
 printf('\n');
 }
