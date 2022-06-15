@@ -6,23 +6,16 @@
  */
 char *leet(char *str)
 {
-int i = 0;
+int i = 0, j;
+char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 while (str[i])
 {
-if (str[i] == 'a' || str[i] == 'A')
-str[i] = '4';
-else if (str[i] == 'e' || str[i] == 'E')
-str[i] = '3';
-else if (str[i] == 'g' || str[i] == 'G')
-str[i] = '6';
-else if (str[i] == 'i' || str[i] == 'I')
-str[i] = '1';
-else if (str[i] == 'o' || str[i] == 'O')
-str[i] = '0';
-else if (str[i] == 's' || str[i] == 'S')
-str[i] = '5';
-else if (str[i] == 't' || str[i] == 'T')
-str[i] = '7';
+for (j = 0; j <= 7; j++)
+{
+if (str[i] == leet[j] ||
+str[i] - 32 == leet[j])
+str[i] = j + '0';
+}
 i++;
 }
 return (str);
