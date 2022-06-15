@@ -9,10 +9,10 @@
  */
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-int index, n1_len = 0, n2_len = 0;
-for (index = 0; *(n1 + index); index++)
+int i, n1_len = 0, n2_len = 0;
+for (i = 0; *(n1 + i); i++)
 n1_len++;
-for (index = 0; *(n2 + index); index++)
+for (i = 0; *(n2 + i); i++)
 n2_len++;
 if (size_r <= n1_len + 1 || size_r <= n2_len + 1)
 return (0);
